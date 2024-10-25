@@ -13,10 +13,35 @@
     ============
 */
 
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 1em;
+    font-variant: small-caps;
+    line-height: 2em;
+    padding-left: 1%;
+}
+
+body {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
 /*  =============
     Table Styles:
     =============
 */
+
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25em;
+    height: 5em;
+}
 
 /*  ==================
     Navigation Styles:
@@ -26,3 +51,4 @@
 /*  =================
     Container Styles:
     =================
+*/
