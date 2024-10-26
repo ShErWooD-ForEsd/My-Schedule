@@ -13,7 +13,7 @@
     ============
 */
 header {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 footer {
@@ -32,25 +32,33 @@ footer {
 body {
     text-align: center;
     background-color: white;
-    border-radius: 1% solid black;
+    margin: 5%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*  =============
     Table Styles:
     =============
 */
+
+table {
+    border-top: 1px solid grey;
+}
+
 th {
     font-weight: bold;
     font-size: 1.5em;
 }
 
 td {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 10px;
     width: 25em;
     height: 5em;
     background-color: whitesmoke;
+    box-shadow: 1px 1px grey;
 }
+
 
 
 /*  ==================
