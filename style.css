@@ -16,6 +16,10 @@ header {
     font-size: 4em;
 }
 
+.toplogo {
+    width: 100%;
+}
+
 footer {
     left: 0;
     bottom: 0;
@@ -41,10 +45,6 @@ body {
     =============
 */
 
-table {
-    border-top: 1px solid grey;
-}
-
 th {
     font-weight: bold;
     font-size: 1.5em;
@@ -59,14 +59,35 @@ td {
     box-shadow: 1px 1px grey;
 }
 
-
-
 /*  ==================
     Navigation Styles:
     ==================
 */
 
-/*  =================
-    Container Styles:
-    =================
-*/
+nav {
+    border-radius: 10px;
+    border-top: 1px solid grey;
+}
+
+nav,
+ul,
+li {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.1em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: skyblue;
+}
