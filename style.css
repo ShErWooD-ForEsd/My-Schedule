@@ -12,6 +12,9 @@
     Main Styles:
     ============
 */
+header {
+    font-size: 5em;
+}
 
 footer {
     left: 0;
@@ -28,20 +31,27 @@ footer {
 
 body {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: white;
+    border-radius: 1% solid black;
 }
 
 /*  =============
     Table Styles:
     =============
 */
+th {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
 td {
     border: 1px solid black;
     border-radius: 10px;
     width: 25em;
     height: 5em;
+    background-color: whitesmoke;
 }
+
 
 /*  ==================
     Navigation Styles:
